@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (4/4) · tokyo-aga</title>
+  <meta name="description" content="tokyo-aga에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://aga-clinic.space/posts-4.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+:root{--primary:#4a9eff;--accent:#7bc8ff;--bg:#0a0f1e;--bg2:#0f1628;--bg3:#141d35;--text:#d0d8f0;--muted:#6070a0;--border:#1e2840;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--accent)}
+header{position:sticky;top:0;z-index:100;background:rgba(10,15,30,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5%}
+.hi{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1200px;margin:0 auto}
+.logo{font-size:1.15rem;font-weight:800;color:var(--accent)}
+.logo small{color:var(--muted);font-weight:400;font-size:.78rem;margin-left:6px}
+nav a{font-size:.86rem;color:var(--muted);margin-left:20px;transition:.2s}
+nav a:hover{color:var(--accent)}
+.hero{min-height:60vh;display:flex;align-items:center;padding:72px 5%;background:linear-gradient(135deg,#0a0f1e,#141d35);position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(74,158,255,.08),transparent 70%)}
+.hc{max-width:800px;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(74,158,255,.12);border:1px solid rgba(74,158,255,.25);border-radius:50px;padding:4px 12px;font-size:.78rem;color:var(--primary);margin-bottom:20px}
+.hc h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.2;letter-spacing:-.5px;margin-bottom:14px}
+.hc h1 em{color:var(--accent);font-style:normal}
+.hsub{font-size:.95rem;color:var(--muted);margin-bottom:28px;line-height:1.8}
+section{padding:64px 5%}
+.si{max-width:1200px;margin:0 auto}
+.sh{text-align:center;margin-bottom:44px}
+.stag{display:inline-block;background:rgba(74,158,255,.1);color:var(--primary);font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:50px;letter-spacing:1px;margin-bottom:10px}
+.sh h2{font-size:clamp(1.4rem,2.8vw,2rem);font-weight:900}
+.sh p{color:var(--muted);margin-top:8px;font-size:.9rem}
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.post{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.post::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent))}
+.post:hover{border-color:var(--primary);transform:translateY(-3px)}
+.ptag{font-size:.76rem;color:var(--primary);font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.post h3{font-size:1rem;font-weight:800;margin-bottom:10px;line-height:1.4}
+.post h3 a{color:var(--text)}
+.post h3 a:hover{color:var(--accent)}
+.post p{font-size:.86rem;color:var(--muted);line-height:1.7}
+.pdate{font-size:.78rem;color:var(--muted);margin-top:12px}
+.article{max-width:800px;margin:0 auto;padding:64px 5%}
+.article h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;margin-bottom:20px;line-height:1.3}
+.article .meta{color:var(--muted);font-size:.85rem;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.article h2{font-size:1.3rem;font-weight:800;margin:32px 0 14px;color:var(--accent)}
+.article h3{font-size:1.1rem;font-weight:700;margin:24px 0 10px}
+.article p{font-size:.95rem;color:var(--text);line-height:1.9;margin-bottom:18px}
+.article ul{padding-left:1.5em;margin-bottom:18px}
+.article li{margin-bottom:8px;font-size:.93rem;color:var(--text)}
+.article blockquote{border-left:3px solid var(--primary);padding:12px 20px;background:var(--bg2);border-radius:0 8px 8px 0;margin:24px 0;color:var(--muted);font-style:italic}
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 5% 20px;text-align:center}
+.fbot{font-size:.8rem;color:var(--muted)}
+@media(max-width:768px){nav{display:none}}
+</style>
+  <meta property="og:title" content="글 목록 (4/4) · tokyo-aga">
+  <meta property="og:description" content="tokyo-aga에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://aga-clinic.space/posts-4.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header><div class="hi"><div class="logo">E-E-A-T 신뢰</div><nav><a href="index.html">홈</a></nav></div></header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 77개 · 4/4 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-13txh9m.html">모발이식 구글 신뢰도, 왜 당신의 검색어는주치의를 찾지 못할까요?</a>
+        <p class="post-item__summary">안녕하세요, 사랑하는 블로그 방문자 여러분! 오늘도 빛나는 지성으로 가득 찬 당신의 하루에 축복이 가득하시길 기원합니다! ^^✨🙏 사실 제가 이렇게까지 열심히 글을 쓰는 이유는.. 음, 그냥 생활</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-1pppn5t.html">원장님이 책상 밑에서 꺼낸 그 종이, 국제중 내신 1 점과 일반중 1 점의 치명한 간극</a>
+        <p class="post-item__summary">&quot;선생님, 우리 아이 국제중 나와서 내신 1.2 인데 과학고 붙을 확률 얼마나 될까요?&quot;라고 묻는 학부모님의 눈빛은 절실함 그 자체였습니다. ^^ 하지만 저는 책상 서랍 깊숙한 곳에 숨겨진 역대 합</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-1v1f6hc.html">구글 신뢰 지수 모발이식 솔루션 꼭 확인해야 할 포인트, 정리해 드렸습니다</a>
+        <p class="post-item__summary">이 프로젝트는 1982년에 시작됐지만, 리들리 스콧이 원하는 형태로 완성된 건 2007년 파이널 컷이 처음이었다. 25년이라는 시간 차이. 그 사이에 감독판이 하나 더 있었고, 1992년 자르고 다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1425eo3.html">의사선생님 몰래 물어보는 거예요, 구글이 감시하는 모발이식 신뢰도 진짜일까요? ^^</a>
+        <p class="post-item__summary">&quot;원장님, 이거 건축법 위반 아닌가요?&quot;라고 제가 살짝 농담 반 진담 반으로 여쭤봤더니, 상담실 공기가 순간 얼어붙었던 그날이 기억나네요. 마치 발코니 확장을 하되 적발 확률은 0% 에 가깝다는 그</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1hlylhz.html">머리카락 한 올의 원가 싸움: 33.8cm 와 35cm 가 결정하는 마진의 비밀</a>
+        <p class="post-item__summary">&quot;사장님, 행거 간격 1.2cm 줄인다고 옷이 더 많이 들어가는 건 알겠는데, 왜 굳이 그 미세한 차이에 목숨 거세요?&quot; 라고 묻던 젊은 알바생의 눈이 아직도 선합니다. ^^ 저는 그저 미소만 지으</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1t3b8va.html">1판 유저가 2판 카드 보면 눈물 흘리는 이유.txt (feat. 룰 변호사의 비애)</a>
+        <p class="post-item__summary">프리뷰 테이블에서 2판 데모카드 한 장을 뒤집었을 때였어요. 상대방은 &quot;와 이거 상향이네요!&quot; 했지만, 제 시선은 하단의 작은 텍스트에 고정됐죠. ‘Attack 3, Range 2’. 이 한 줄 때</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1uphpxg.html">모발이식 알아보는데 구글이 자꾸 딴소리 하길래 그냥 내가 정리해드림 ^^</a>
+        <p class="post-item__summary">창고 냄새가 진동하는 페덱스 박스를 열었을 때, 첫 느낌은 '또 속았나'였어요. 솔직히 말해서 박스 퀄리티며 종이 재질이며, 겉보기엔 지난 시즌 재고랑 완전히 똑같았거든요. 그런데 신발을 꺼내 깔창</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-722ayy.html">의사 선생님도 몰래 속삭인 그 소스, 과연 어디부터가 다를까요? ^^</a>
+        <p class="post-item__summary">&quot;선생님,이번 레시피가 왜 이렇게 끈적거리는 거죠?&quot;라고 담당 MD 가 다급하게 물어오던 그날의 기억이 생생하네요. ㅎㅎ 동일한 디저트 이름으로 GS25 와 CU 진열대에 나란히 놓였지만, 입안에 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-003-1lhsvdm.html">구글 신뢰 지수 높이려면 모발이식 솔루션 어떤 걸로 잡아야 할까요</a>
+        <p class="post-item__summary">검색 결과 첫 페이지에서 병원 three개가 겹쳐 보이는데, 어떤 걸 클릭하시겠어요?</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-003-1wf77oz.html">편집실에서 본 리들리 스콧의 진짜 속마음? 유니콘 꿈이 파이널 컷에 들어간 사정</a>
+        <p class="post-item__summary">2007년, 제가 보조 편집기사로 일하던 포스트 프로덕션 스튜디오에서 워너브라더스 측 인사가 깜짝 방문했어요. 손에 들고 있던 건 테스트 스크리닝용으로 추정되는 필름 캔이 아니라, 당시 막 출시된 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-003-ej2tnv.html">고객님, 혹시 구글 신뢰 지수 모발이식 솔루션만큼 정교한 아식스 젤 카야노 14 정가품 구별법이 필요하신가요? ^^</a>
+        <p class="post-item__summary">동일한 모델명을 가졌으니 과거에 발매된 제품과 완전히 똑같은 디테일로 제작되었을 것이라 굳게 믿고 계시나요? 대다수의 컬렉터분들이 범하는 가장 흔한 실수가 바로 이 지점이며, 특히 아식스 젤 카야노</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-004-a1apaq.html">사장 몰래 원가 장부 만들어봤습니다. 룸 값 15,000원에 숨겨진 마진의 진실은요</a>
+        <p class="post-item__summary">다큐에서 봤을 때 한 시간 기본료 15,000원이면 음향 설비 감가상각비만 3,000원입니다. 전기세와 룸 청소 인건비를 합하면 4,500원. 여기에 룸당 월 임대료 분할까지 계산하면 남는 게 거의</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-1j48kaf.html">블레이드 러너 유니콘 시퀀스 비밀</a>
+        <p class="post-item__summary">유니콘 장면이 삽입된 순간은 2007년 12월 16일, “Blade Runner: The Final Cut”의 01:25:33 타임코드에서 처음 눈에 띄었습니다. 그때 사용된 CG‑01 레이어는 D</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-1kbq62e.html">모발이식 원장님이 구글 1페이지 못 올리는 진짜 이유</a>
+        <p class="post-item__summary">솔직히 말씀드리면, 모발이식 원장님들이 제일 많이 착각하시는 게 있습니다. &quot;내 병원 시술 사례가 많으면 구글에서 잘 나온다&quot;라는 믿음. 그거 반만 맞습니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-1mx1i7z.html">구글 신뢰 지수가 모발이식 상담까지 좌우한다고? 월 3천만 원 광고비 쓰고도 검색 첫 페이지 못 올린 사연</a>
+        <p class="post-item__summary">모발이식 병원 웹사이트 하나 만들면서 &quot;이 키워드 1페이지 올리려면 광고비 얼마나 들겠어?&quot;라고 단순하게 생각하신 적 있으세요?</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-qe3y5g.html">다크소울 1편 데모버전 지역과 적 배치, 정식 출시랑 비교해보니 생각보다 심했어요</a>
+        <p class="post-item__summary">혹시 2011년에 나온 다크소울 1편 데모 플레이해보신 분 계세요? 저는 그때 PS3로 데모 받아서 한 20번은 반복했었는데, 정식 출시되고 나서 &quot;어? 여기 왜 이렇게 바뀌었지?&quot; 하면서 멍하니 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-s5idpe.html">권리금 2억 받고 나간 가게, 손익분기점은 왜 11개월이었을까</a>
+        <p class="post-item__summary">&quot;계약서에 도장 찍고 나오는데 손이 떨렸어요. 2억은 받았는데, 2년 동안 빚진 돈이 3억8천이거든요.&quot;</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <a class="pager__link" href="posts-3.html">3</a>
+      <span class="pager__current">4</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>

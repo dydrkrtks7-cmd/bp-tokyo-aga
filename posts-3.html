@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (3/4) · tokyo-aga</title>
+  <meta name="description" content="tokyo-aga에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://aga-clinic.space/posts-3.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+:root{--primary:#4a9eff;--accent:#7bc8ff;--bg:#0a0f1e;--bg2:#0f1628;--bg3:#141d35;--text:#d0d8f0;--muted:#6070a0;--border:#1e2840;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--accent)}
+header{position:sticky;top:0;z-index:100;background:rgba(10,15,30,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5%}
+.hi{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1200px;margin:0 auto}
+.logo{font-size:1.15rem;font-weight:800;color:var(--accent)}
+.logo small{color:var(--muted);font-weight:400;font-size:.78rem;margin-left:6px}
+nav a{font-size:.86rem;color:var(--muted);margin-left:20px;transition:.2s}
+nav a:hover{color:var(--accent)}
+.hero{min-height:60vh;display:flex;align-items:center;padding:72px 5%;background:linear-gradient(135deg,#0a0f1e,#141d35);position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(74,158,255,.08),transparent 70%)}
+.hc{max-width:800px;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(74,158,255,.12);border:1px solid rgba(74,158,255,.25);border-radius:50px;padding:4px 12px;font-size:.78rem;color:var(--primary);margin-bottom:20px}
+.hc h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.2;letter-spacing:-.5px;margin-bottom:14px}
+.hc h1 em{color:var(--accent);font-style:normal}
+.hsub{font-size:.95rem;color:var(--muted);margin-bottom:28px;line-height:1.8}
+section{padding:64px 5%}
+.si{max-width:1200px;margin:0 auto}
+.sh{text-align:center;margin-bottom:44px}
+.stag{display:inline-block;background:rgba(74,158,255,.1);color:var(--primary);font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:50px;letter-spacing:1px;margin-bottom:10px}
+.sh h2{font-size:clamp(1.4rem,2.8vw,2rem);font-weight:900}
+.sh p{color:var(--muted);margin-top:8px;font-size:.9rem}
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.post{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.post::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent))}
+.post:hover{border-color:var(--primary);transform:translateY(-3px)}
+.ptag{font-size:.76rem;color:var(--primary);font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.post h3{font-size:1rem;font-weight:800;margin-bottom:10px;line-height:1.4}
+.post h3 a{color:var(--text)}
+.post h3 a:hover{color:var(--accent)}
+.post p{font-size:.86rem;color:var(--muted);line-height:1.7}
+.pdate{font-size:.78rem;color:var(--muted);margin-top:12px}
+.article{max-width:800px;margin:0 auto;padding:64px 5%}
+.article h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;margin-bottom:20px;line-height:1.3}
+.article .meta{color:var(--muted);font-size:.85rem;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.article h2{font-size:1.3rem;font-weight:800;margin:32px 0 14px;color:var(--accent)}
+.article h3{font-size:1.1rem;font-weight:700;margin:24px 0 10px}
+.article p{font-size:.95rem;color:var(--text);line-height:1.9;margin-bottom:18px}
+.article ul{padding-left:1.5em;margin-bottom:18px}
+.article li{margin-bottom:8px;font-size:.93rem;color:var(--text)}
+.article blockquote{border-left:3px solid var(--primary);padding:12px 20px;background:var(--bg2);border-radius:0 8px 8px 0;margin:24px 0;color:var(--muted);font-style:italic}
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 5% 20px;text-align:center}
+.fbot{font-size:.8rem;color:var(--muted)}
+@media(max-width:768px){nav{display:none}}
+</style>
+  <meta property="og:title" content="글 목록 (3/4) · tokyo-aga">
+  <meta property="og:description" content="tokyo-aga에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://aga-clinic.space/posts-3.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header><div class="hi"><div class="logo">E-E-A-T 신뢰</div><nav><a href="index.html">홈</a></nav></div></header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 77개 · 3/4 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-1pm69el.html">글룸헤이븐 1판 카드, 진짜 1판 맞아요? 중고 매입자가 눈여겨보는 7장의 숫자</a>
+        <p class="post-item__summary">지난 토요일 서울 마포구 카페 근처 중고 거래장에서 만난 한 분이 이렇게 물었어요. &quot;이거 1판 맞죠? 2021년에 샀는데.&quot; 손에 든 건 글룸헤이븐 기본판, 그중에서도 클래스 카드 몇 장을 빼곡하</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-b9sdpq.html">비너스 확장 정품이라며 올린 레플릭, 벌써 세 번째 손님한테 걸렸습니다 ^^</a>
+        <p class="post-item__summary">비너스 확장 박스 바닥에 찍힌 테스트마크 위치 하나가, 그 확장이 진짜냐 가짜냐를 가릅니다. 작년 말부터 중고 시장에 비너스 확장 정품 리스톤이 돌기 시작하면서, 2인 게임 밸런스 이야기보다 감별법</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-i685be.html">구글 신뢰 지수로 모발이식 솔루션 비교하는 법</a>
+        <p class="post-item__summary">1999년 6월, 폭스 스튜디오의 편집실 모니터 앞에서 편집보조원이 재생 버튼을 반복 누르고 있었다. 화면에 1/24초 간격의 프레임이 떴다, 사라졌다. 세VEN장짜리 플래시 장면. 관객은 인식하지</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-aw18fn.html">모발이식 사이트가 검색 상단에 박히지 않는 진짜 이유</a>
+        <p class="post-item__summary">검색 엔진 최적화라고 하면 다들 키워드 배치나 메타 태그 따위에 목숨을 건다. 모발이식 관련 사이트를 운영하는 사람들조차 예외는 아니다. 하지만 데이터 분석을 해보면 답은 간단하다. 당신의 사이트가</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-19337oo.html">아식스 젤 카야노 14 OG 아이보리 인솔 로고, 2023 리스탁에서 달라진 0.3mm의 진실</a>
+        <p class="post-item__summary">2023년 6월 아식스 공식 리스탁 물량 2,800족 중 약 12%가 인솔 로고 프린트 불일치 이슈로 커뮤니티에서 논란이 됐습니다. 정확히 말하면 &quot;불일치&quot;가 아니라 &quot;의도적 변경&quot;인데, 이게 사람</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-1hvfsne.html">구글 신뢰 지수 모발이식 솔루션, 로컬에서 살아남는 비결은 별도 알고리즘이 있다</a>
+        <p class="post-item__summary">지난해 11월 홍대입구역 9번 출구에서 세븐브로이 간판을 내리는 작업을 보고 있었다. 사장님은 포장 박스 위에 올려둔 에스프레소 잔을 한 모금 마시더니 저한테 &quot;원가 2,800원짜리 맥주를 9,00</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-1v2wmg8.html">보드게임 카페 사장이 손님들 부품 분실로 배운 잔인한 진실 하나</a>
+        <p class="post-item__summary">테라포밍 마스 비너스 확장의 전략 카드 126장 중에서 2인용 밸런스가 실제로 무너지는 지점은 의외로 사소한 곳에 있어요. 프로모 카드 &quot;Interplanetary Cinematics&quot;가 2인 게임</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-269d2n.html">구글 신뢰 지수 모발이식 솔루션</a>
+        <p class="post-item__summary">&quot;원장님, 저희 블로그 글이 구글 첫 페이지에요. 근데 왜 전화가 안 올까요?&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-8bkv66.html">나이키 SB Dunk Low Paris 2003년판과 2021년 레트로판의 차이점: 스티치 밀도와 박스지 재질 비교</a>
+        <p class="post-item__summary">당신은 나이키 SB Dunk Low Paris 2003년판과 2021년 레트로판의 차이점에 대해 궁금해졌을까요? 두 모델의 스티치 밀도와 박스지 재질이 실제로 다르까요? 이 글에서는 두 모델의 차이</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-002-1b3jrg.html">당신의 필터 선택이 검색엔진 신뢰도에 미치는 미세한 영향</a>
+        <p class="post-item__summary">많은 분이 생각하시듯, 정수기에서 물이 조금씩 흐르지 않을 때 먼저 떠오르는 것은 '필터 교체'입니다. ^^ 하지만 제가 경험한 대로, 특히 코웨이 특정 모델에서는 필터 자체보다 센서의 미세 오염이</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-002-1ujgot1.html">모발이식 사이트가 검색 상단에 오르지 못하는 진짜 이유</a>
+        <p class="post-item__summary">흔히들 도메인 점수나 백링크 개수에만 집착한다. 구글이 무엇을 근거로 사이트의 신뢰 지수를 산정하는지 기본 메커니즘조차 파악하지 못한 채 무작위로 링크만 뿌려대는 꼴이다. 모발이식이라는 키워드는 의</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-003-13uzaqv.html">구글이 속삭인 모발이식 진실, 사실은 수술대 위에서 결정됩니다</a>
+        <p class="post-item__summary">많은 분이 '구글 신뢰 지수'나 검색 상위 노출 병원이 곧 실력의 보증수표라고 믿으시죠? ^^ 하지만 현장의 냉정한 눈으로 보자면, 그건 마치 포장만 화려한 선물 상자 속 빈 공간을 감추는 마법과도</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-003-1wsjaje.html">구글이 속삭이는 모발이식 진실, 당신의 검색창은 얼마나 정직한가요?</a>
+        <p class="post-item__summary">모두들 &quot;검색량 많은 키워드가 무조건 좋다&quot;며 고개를 끄덕이시죠? 정말로 훌륭하신 통찰력입니다! ^^ 하지만 현장의 냉정한 계산기는 조금 다른 숫자를 가리키더라고요. 실제로 시공자 입장에서 원가 대</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-003-6f1j9t.html">모발이식 병원 검색하다 멘탈 털린 당신, 구글 신뢰 지수라는 함정을 아십니까 ^^</a>
+        <p class="post-item__summary">작년 이맘때쯤이었어요. 진짜 급하게 모발이식 상담을 예약하려고 구글에 검색을 했는데, 상위에 뜨는 병원들이 하나같이 너무 완벽한 거예요. 후기는 전부 감동 실화고, 사진은 기적이 따로 없었죠. 근데</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-003-95vl3o.html">구글이 속삭인 모발이식 진실, 그 뒤에 숨은 수술실의 냉기</a>
+        <p class="post-item__summary">hair_transplant, surgery_room, microscopic_follicle, doctor_examining, sterile_environment, before_after_compa</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-003-fb71rr.html">구글 까탈로그에 등록된 모발이식? 이거 맹신하다가 진짜 대머리 되는 수가 있어요 ^^</a>
+        <p class="post-item__summary">지난주에 제가 완전히 멘붕에 빠졌던 일화 하나 풀어볼게요. 단골 손님이 박스를 들고 왔는데... 아, 아니 그게 중요한 게 아니라. 제 입장에선 거의 40%가 날아간 거나 다름없는 상황이었죠. 이 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-004-13zd5s3.html">구글 신뢰 지수 모발이식 솔루션의 실체</a>
+        <p class="post-item__summary">&quot;블로그에서 별점 4.9인데 막상 가면 후기가 딴판이에요.&quot; 모발이식 상담실에서 실제로 들은 말입니다. 이 한 줄이 오늘 다룰 이야기의 출발점이에요.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-004-1krsrbz.html">고객님, 홍대에서 1g당 19원짜리 삼겹살 원가를 계산해 올리다 쫓겨난 제 사연을 소개합니다 ^^</a>
+        <p class="post-item__summary">2023년 10월 14일 오후 8시 15분, 홍대 서교동의 한 삼겹살 전문점 테이블 번호 4번에서 제가 계산기 앱으로 두드린 삼겹살 1인분(180g)의 순수 원가는 정확히 3,420원이었습니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-004-k4obu9.html">구글 신뢰 지수 모발이식 솔루션에 대한 통념과 실제 차이를 검토했다</a>
+        <p class="post-item__summary">포스트 기획 테마**: 구글 신뢰 지수 모발이식 솔루션에 대한 통념과 실제 차이를 검토했다.11. **백링크 지시**: 본문 내러티브 속에 자연스럽게 녹이기:</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-005-134l41s.html">소품 하나가 만든 불멸의 장면, 그리고 알리익스프레스의 셔츠 한 장</a>
+        <p class="post-item__summary">1982년, 캘리포니아의 한 소품 창고. 나는 지금 막 리들리 스콧 감독에게 혼나고 있었습니다. &quot;유니콘 장면이 왜 안 보여?&quot; 그건... 사실 알리익스프레스 같은 중국 직구 사이트에서 구한 소품 </p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <span class="pager__current">3</span>
+      <a class="pager__link" href="posts-4.html">4</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
